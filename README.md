@@ -19,6 +19,9 @@ using Windows Event Viewer.
 Repeated failed logins may indicate brute-force activity
 and should be monitored by a SOC analyst.
 
+## Simple Detection Idea in my Perspective
+- Alert on multiple failed login attempts from the same account within a short time window.
+
 ## Learning Outcomes
 - Gained a basic understanding of Windows Security Event Logs and their role in SOC investigations.
 - Learned to identify and analyze successful and failed login events.
