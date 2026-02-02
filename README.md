@@ -25,3 +25,6 @@ and should be monitored by a SOC analyst.
 - Practiced filtering logs and reviewing events to identify suspicious behavior.
 - Improved understanding of how SOC analysts use logs to detect brute-force activity.
 
+## Additional Practice
+- Generated multiple failed login attempts followed by a successful login.
+- Observed how repeated authentication failures appear in Security logs.
