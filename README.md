@@ -31,3 +31,22 @@ and should be monitored by a SOC analyst.
 ## Additional Practice
 - Generated multiple failed login attempts followed by a successful login.
 - Observed how repeated authentication failures appear in Security logs.
+
+## Event Investigation Examples
+
+### Event ID 4625 Investigation
+
+Event ID: 4625
+Event Name: Failed Logon
+
+Scenario
+Multiple failed login attempts were detected in the Windows Security Event Log.
+
+Analysis
+Repeated Event ID 4625 entries may indicate a password guessing or brute-force attack.
+
+SOC Perspective
+SOC analysts monitor failed logon attempts to detect suspicious authentication activity.
+
+Mitigation
+Monitor repeated failed logins and enforce account lockout policies.
